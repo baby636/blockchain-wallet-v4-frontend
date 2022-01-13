@@ -84,7 +84,7 @@
     "isomorphic-fetch": "2.2.1",
     "pbkdf2": "3.0.17",
     "query-string": "6.5.0",
-    "ramda": "0.26.1",
+    "ramda": "0.27.2",
     "ramda-lens": "git+https://github.com/ramda/ramda-lens.git",
     "read-blob": "1.1.0",
     "redux": "4.0.1",
@@ -93,7 +93,7 @@
     "reselect": "4.0.0",
     "scrypt-js": "3.0.1",
     "seedrandom": "2.4.3",
-    "stellar-sdk": "6.0.0",
+    "stellar-sdk": "8.0.0",
     "unorm": "1.5.0"
   }
 }
