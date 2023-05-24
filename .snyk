@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/cli > @storybook/codemod > jscodeshift > @babel/register > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/react > @storybook/core > react-dev-utils > inquirer > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > lodash:
+        patched: '2023-05-24T16:29:36.600Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > lodash:
+        patched: '2023-05-24T16:29:36.600Z'
+    - jest-cli > @jest/core > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-05-24T16:29:36.600Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/storybook-deployer > git-url-parse > parse-domain > jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/storybook-deployer > git-url-parse > parse-domain > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/cli > @storybook/codemod > jscodeshift > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/cli > @storybook/codemod > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/cli > @storybook/codemod > jscodeshift > @babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/cli > @storybook/codemod > jscodeshift > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
+    - '@storybook/cli > @storybook/codemod > jscodeshift > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2023-05-24T16:29:36.600Z'
