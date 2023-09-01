@@ -98,10 +98,12 @@
     "test:frontend:update": "yarn workspace blockchain-wallet-v4-frontend test:update",
     "test:frontend:watch": "yarn workspace blockchain-wallet-v4-frontend test:watch",
     "release": "release-it",
-    "vet": "yarn prettier && yarn lint:fix && yarn lint:css && yarn test"
+    "vet": "yarn prettier && yarn lint:fix && yarn lint:css && yarn test",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
-    "@babel/cli": "7.8.4",
+    "@babel/cli": "7.12.0",
     "@babel/core": "7.9.0",
     "@babel/plugin-proposal-class-properties": "7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "7.9.5",
@@ -205,5 +207,9 @@
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3",
     "wsrun": "5.0.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
