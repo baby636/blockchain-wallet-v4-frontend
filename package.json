@@ -116,7 +116,7 @@
     "@storybook/cli": "5.3.19",
     "@storybook/preset-typescript": "3.0.0",
     "@storybook/react": "5.3.19",
-    "@storybook/storybook-deployer": "2.8.1",
+    "@storybook/storybook-deployer": "2.8.4",
     "@types/axios": "0.14.0",
     "@types/hoist-non-react-statics": "3.3.1",
     "@types/jest": "22.2.3",
@@ -174,8 +174,8 @@
     "husky": "3.0.5",
     "identity-obj-proxy": "3.0.0",
     "istanbul": "0.4.5",
-    "jest": "25.3.0",
-    "jest-cli": "25.3.0",
+    "jest": "28.0.0",
+    "jest-cli": "28.0.0",
     "jest-css-modules": "2.1.0",
     "jest-fetch-mock": "3.0.3",
     "lint-staged": "10.2.11",
@@ -203,7 +203,7 @@
     "webpack": "4.42.1",
     "webpack-bundle-analyzer": "3.6.1",
     "webpack-cli": "3.3.11",
-    "webpack-dev-server": "3.10.3",
+    "webpack-dev-server": "4.0.0",
     "wsrun": "5.0.2"
   }
 }
