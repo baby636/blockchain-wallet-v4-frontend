@@ -113,7 +113,7 @@
     "@storybook/addon-actions": "5.3.19",
     "@storybook/addon-info": "5.3.19",
     "@storybook/addon-links": "5.3.19",
-    "@storybook/cli": "5.3.19",
+    "@storybook/cli": "8.2.0",
     "@storybook/preset-typescript": "3.0.0",
     "@storybook/react": "5.3.19",
     "@storybook/storybook-deployer": "2.8.1",
