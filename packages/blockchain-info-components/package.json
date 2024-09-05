@@ -61,13 +61,13 @@
     "prop-types": "15.7.2",
     "ramda": "0.26.1",
     "react": "16.13.1",
-    "react-datetime": "2.16.3",
+    "react-datetime": "3.0.1",
     "react-input-autosize": "2.2.1",
     "react-intl": "2.8.0",
     "react-onclickoutside": "6.8.0",
-    "react-select": "3.0.3",
+    "react-select": "4.0.0",
     "react-transition-group": "2.5.3",
-    "styled-components": "4.4.1",
+    "styled-components": "6.1.0",
     "universal-cookie": "4.0.0"
   }
 }
