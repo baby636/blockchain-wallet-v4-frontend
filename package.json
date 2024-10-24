@@ -117,7 +117,7 @@
     "@storybook/preset-typescript": "3.0.0",
     "@storybook/react": "5.3.19",
     "@storybook/storybook-deployer": "2.8.1",
-    "@types/axios": "0.14.0",
+    "@types/axios": "0.14.4",
     "@types/hoist-non-react-statics": "3.3.1",
     "@types/jest": "22.2.3",
     "@types/moment": "2.13.0",
